@@ -3,12 +3,20 @@
   padding: 0;
   font-family: "RedHatDisplay"; }
 
-.header {
+.nav-1 {
   display: flex;
-  background-color: #ff7818; }
+  flex-direction: row;
+  justify-content: center;
+  color: #ff7818; }
+
+.logo {
+  width: 150px; }
 
 .lupa {
   width: 20px; }
+
+.carrito {
+  width: 40px; }
 
 h3 {
   display: flex;
