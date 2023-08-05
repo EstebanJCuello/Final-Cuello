@@ -57,9 +57,18 @@ h3 {
 .armado-pc img {
   width: 60px; }
 
+section {
+  display: flex;
+  flex-direction: row; }
+
 .card {
-  display: grid;
-  grid-template-columns: 1fr 1fr; }
+  display: flex;
+  flex-direction: column;
+  width: 500px; }
+
+.card img {
+  margin: 25px;
+  width: 120px; }
 
 .Carrito {
   background-color: #ff7818;
@@ -97,8 +106,8 @@ main {
   justify-content: center; }
 
 .footer {
-  background-color: #fd611a;
-  color: #000000; }
+  background-color: #000000;
+  color: #ffffff; }
 
 .footer ul {
   list-style-type: none; }
