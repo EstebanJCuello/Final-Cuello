@@ -99,7 +99,8 @@ main {
 
 .datos {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  font-size: 25px; }
 
 .boton {
   width: 100px;
