@@ -1,14 +1,27 @@
+main{
+    background-color: #e3e3e3;
+}
 .contactanos{
     display: flex;
     flex-direction: row;
-    
+    justify-content: space-around;
 }
-
+.mapa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .contacto{
     display: flex;
     flex-direction: column;
     width: 500px;
 }
 .datos{
+    display: flex;
+    flex-direction: column;
+}
 
+.boton{
+    width: 100px;
+    justify-content: center;
 }

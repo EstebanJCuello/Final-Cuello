@@ -1,5 +1,5 @@
 .armado-pc{
-    background-color: #ffffff;
+    background-color: #fd611a;
     border: 5px #000000 solid;
     margin: 20px;
     padding: 75px;
@@ -16,7 +16,7 @@
     align-content: stretch;
 }
 .armado-pc div{
-    background-color: #ff7818;
+    background-color: #fd611a;
     padding: 30px;
     width: 40px;
     height: 10px;
@@ -27,4 +27,8 @@
 }
 .armado-pc img{
     width: 60px;
+}
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
