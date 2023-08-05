@@ -3,11 +3,9 @@
   padding: 0;
   font-family: "RedHatDisplay"; }
 
-.nav-1 {
+header {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  color: #ff7818; }
+  justify-content: center !important; }
 
 .logo {
   width: 150px; }
